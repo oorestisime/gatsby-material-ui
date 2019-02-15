@@ -29,7 +29,3 @@ jobs:
       - run:
           name: Gatsby Build
           command: yarn build
-
-      - run:
-          name: Netlify Deploy
-          command: ./node_modules/.bin/netlify deploy --dir=public
